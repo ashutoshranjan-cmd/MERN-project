@@ -1,0 +1,156 @@
+nav{
+  height: 5rem;
+  width: 100vw;
+  background-color: black;
+  margin-left:-8px;
+  margin-top:-16px;
+
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  margin: 20px;
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.linkname a:hover{
+  color: lightgreen;
+}
+
+
+.footer{
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputBox{
+  margin: 10px;
+  width: 25rem;
+  height: 2rem;
+  border:2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+
+}
+.signupBtn{
+  height: 2rem;
+  width:10rem;
+  border-radius:5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.signupBtn:hover{
+cursor:pointer;
+}
+.addproduct{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addproduct input{
+  margin: 10px;
+  border: 2px solid black;
+  height: 2rem;
+  width: 25rem;
+  border-radius:5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 10px;
+}
+.addproduct button{
+  height: 2rem;
+  width: 10rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size:1.2rem;
+}
+.productlist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.productlist .searchproduct input{
+  border: 2px solid black;
+  width: 30rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.listcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listname{
+  border:2px solid black;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-top:-10px;
+
+}
+.updateproduct{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateproduct input{
+  margin: 10px;
+  border: 2px solid black;
+  height: 2rem;
+  width: 25rem;
+  border-radius:5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 10px;
+}
+.updateproduct button{
+  height: 2rem;
+  width: 10rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size:1.2rem;
+}
